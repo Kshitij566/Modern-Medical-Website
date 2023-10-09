@@ -1,0 +1,289 @@
+/* @media screen and (max-width: 1250px){
+   .navbar, .header, .company-name, .Method, .hero-sec1, .cards-section, .panels, .main-footer{
+      margin-inline: 20px;
+   }
+} */
+
+@media screen and (max-width: 991px) {
+
+   .nav li a {
+      display: initial;
+      padding: 10px;
+   }
+   .navbars{
+      position: absolute;
+      background-color: white;
+      left: -100%;
+      top: 100%;
+      width: 100%;
+      text-align: center;
+      padding-bottom: 20px;
+   }
+
+   .navbars.active{
+      left: 0;
+   }
+
+   .main-nav{
+      overflow: initial;
+   }
+
+   .nav li {
+      padding: 20px 0px;
+   }
+   
+   .nav{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      font-weight: 600;
+      color: black;
+  }
+
+   .main-nav i{
+      display: block;
+      font-size: 24px;
+      margin-right: 30px;
+   }
+
+   .right-header {
+      margin-left: 20px;
+   }
+
+   .main-header {
+      padding-bottom: 20px;
+      padding-inline: 10px;
+   }
+
+   .back-method {
+      margin-top: 50px;
+   }
+
+
+   .main-hero-sec1 {
+      padding-inline: 5px;
+      display: flex;
+      /* align-items: center; */
+      justify-content: space-between;
+      gap: 20px;
+      flex-wrap: wrap;
+   }
+
+   .right-hero-sec1 img {
+      width: 360px;
+   }
+
+   .left-hero-sec1 {
+      width: 340px;
+   }
+
+   .hero-sec1 {
+      padding-inline: 10px;
+   }
+
+  
+
+   .card-image1 p {
+      font-weight: 600;
+      background-color: rgb(0, 54, 80);
+      color: white;
+      padding: 10px;
+   }
+
+   .panels {
+      padding-bottom: 50px;
+      padding-inline: 20px;
+   }
+
+   .panel-btn calc {
+      color: var(--secondary-text-color);
+      padding: 0px 10px;
+      font-size: 16px;
+   }
+}
+
+
+
+@media screen and (max-width:767px) {
+
+   .main-header {
+      flex-direction: column-reverse;
+      padding-inline: 10px;
+
+   }
+
+   .right-header {
+      max-width: 100%;
+      text-align: center;
+   }
+
+   .company-logo {
+      padding-inline: 10px;
+   }
+
+   .methodologies {
+      text-align: center;
+      padding-inline: 10px;
+   }
+
+   .methodologies .Methods {
+      min-width: 50%;
+   }
+
+   .right-hero-sec1 img {
+      width: 100%;
+   }
+
+   .hero-sec1 {
+      padding-inline: 10px;
+   }
+
+   .left-hero-sec1 {
+      text-align: center;
+      margin: auto;
+      width: 100%;
+   }
+
+   
+   .hero-image2{
+      position: relative;
+      left: 30%;
+      /* top: 50%; */
+   }
+
+   .boom{
+      flex-direction: column-reverse;
+   }
+
+   .cards-section{
+      padding-inline: 20px;
+   }
+
+   .testing-footer{
+      text-align: center;
+      margin-top: 30px;
+      line-height: 4rem;
+  }
+
+  .testing-footer a{
+   padding: 10px 50px;
+  }
+
+  .main-footer{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   text-align: center;
+  }
+
+  
+
+  .main-footer ul{
+   margin-top: 20px;
+   width: 100%;
+}
+
+.footer2{
+   background-color: #ebf2fa;
+   width: 100%;
+   height: auto;
+   margin-top: 50px;
+}
+
+
+.main-footer img{
+   position: relative;
+   top: 10px;
+   width: 30%;
+   margin: 20px 0px; 
+}
+
+.copyright a{
+padding: 0px 10px;
+}
+}
+
+@media screen and (max-width:479px) {
+   .right-header h1{
+     font-size: 30px;
+   }
+
+   .right-header p{
+      font-size: 16px;
+    }
+
+    .right-header a{
+      padding: 10px 100px;
+    }
+
+    .Method{
+      padding-inline: 10px;
+    }
+
+    .headline-research h2{
+      font-size: 25px;
+      margin-bottom: 20px;
+    }
+
+    .methodologies .Methods{
+      min-width: 100%;
+    }
+
+    .hero-image2{
+      position: relative;
+      left: 65px;
+    }
+
+    
+
+ .card .card-image1{
+      /* width: 80%; */
+      margin: auto;
+   }
+
+   .left-panel .heading-text h1{
+      font-size: 16px;
+   }
+
+   .left-panel .heading-text p{
+      font-size: 10px;
+   }
+
+   .left-panel .list-panel h3{
+      font-size: 16px;
+   }
+
+   .left-panel .list-panel .list-panels ul li{
+      font-size: 10px;
+      line-height: 1rem;
+   }
+
+   .left-panel .list-panel .list-panels ul{
+      padding-inline: 20px;
+   }
+   .left-panel .list-panel .list-panels ul:nth-child(2){
+      margin-top: 28px;
+   }
+
+   .left-panel .panel-btn {
+      display: none;
+   }
+
+   .copyright{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+  }
+
+  .copyright a {
+   font-size: 18px;
+  }
+
+  .copyright a i {
+   margin-top: 10px;
+   font-size: 26px;
+  }
+
+}
